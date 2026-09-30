@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Idroid";
+    src: url(fontes/idroid.otf) format(openType);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bebas";
+    src: url(fontes/bebas.otf) format(openType);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    color: white;
+}
+
+body > main > p {
+    text-align: justify;
+}
+
+body main {
+      margin: 10px auto;
+}
+
+.hpri {
+    background-image: linear-gradient(to bottom, #00E663, #00421D);
+    padding: 1px;
+    margin: -10px auto;
+}
+
+.hpri > h1 {
+    font-family: "Bebas";
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+h1.pag {
+    font-family: "Idroid";
+    text-align: center;
+}
+
+.hpri > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+span {
+    text-align: center;
+}
+
+.npri {
+    padding: 40px 1px 5px 1px;
+    margin: 1px 1px 1px -3px;
+}
+
+.npri > a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 30, 255);
+}
+
+.npri > a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.npri > a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background-color: rgb(1, 250, 84);
+}
+
+main {
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+main > h1, h2 {
+    text-align: center;
+    font-family: "Idroid";
+}
+
+main  p  a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(1, 63, 32, 0.795);
+    padding: 0px 2px;
+}
+
+main  p  a:visited {
+    color: rgb(204, 255, 0);
+}
+
+main  picture source, img {
+    display: block;
+    margin: 0px auto;
+}
+
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.pc > img, source {
+    width: 100%;
+}
+
+h3 {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #06cc5c94;
+    margin: 20px auto 0px auto;
+    padding: 10px 10px 10px 10px;
+}
+
+aside > ul {
+    column-count: 2;
+    margin: 0px;
+    padding: 10px 0px 10px 18px;
+    padding: ;
+}
+
+#pa, aside {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #08b955;
+    margin: auto;
+    padding: 10px;
+} 
+
+aside {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.pag {
+   background-image: linear-gradient(to bottom, #00E663, #00421D);
+   color: white;
+}
+
+footer {
+    min-width: 280px;
+    max-width: 1000px;
+    margin: -10px auto;
+    text-align: center;
+    padding: 20px 31px 20px 10px;
+    background-color: rgb(9, 55, 16);
+    color: #ffffff;
+}
